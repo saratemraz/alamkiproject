@@ -243,5 +243,53 @@ footer {
         font-weight: bold;
     }
 
+    /* styles.css */
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.sidebar h5 {
+    margin-top: 20px;
+}
+
+.form-range {
+    width: 100%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.badge {
+    font-size: 1em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.breadcrumb {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.arabic-text {
+    direction: rtl;
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 30px;
+}
 
 
