@@ -139,189 +139,26 @@
 
     </HEAder>
     <!-- END NAV BAR -->
+    <div class="container creataccount">
+        <h1 class="title">Create an Account</h1>
+        <form id="create-account-form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
 
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Home</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Steel Accessories</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
 
-    <!-- Main Container -->
-    <div class="container mt-4">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-3">
-                <h5>Categories</h5>
-                <ul class="list-group mb-3">
-                    <li class="list-group-item">
-                        <input type="checkbox" id="steel" name="category" value="Steel"> 
-                        <label for="steel">Steel</label>
-                    </li>
-                </ul>
-
-                <h5>Price</h5>
-                <div class="mb-3">
-                    <input type="range" class="form-range" min="0" max="329" id="priceRange">
-                </div>
-
-                <h5>Product Type</h5>
-                <ul class="list-group mb-3">
-                    <li class="list-group-item">
-                        <input type="checkbox" id="steelType" name="productType" value="Steel"> 
-                        <label for="steelType">Steel</label>
-                    </li>
-                </ul>
-
-                <h5>Availability</h5>
-                <ul class="list-group mb-3">
-                    <li class="list-group-item">
-                        <input type="checkbox" id="inStock" name="availability" value="In stock"> 
-                        <label for="inStock">In stock</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input type="checkbox" id="outOfStock" name="availability" value="Out of stock"> 
-                        <label for="outOfStock">Out of stock</label>
-                    </li>
-                </ul>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to stay updated with new products and offers!</label>
             </div>
 
-            <!-- Product Listings -->
-            <div class="col-md-9">
-                <div class="d-flex justify-content-between mb-3">
-                    <p class="mb-0">Showing: 165 Results</p>
-                    <select class="form-select w-auto">
-                        <option selected>Best Selling</option>
-                        <option value="1">Price: Low to High</option>
-                        <option value="2">Price: High to Low</option>
-                    </select>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories1.jpg" class="card-img-top" alt="Product 1">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories2.webp" class="card-img-top" alt="Product 2">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories3.webp" class="card-img-top" alt="Product 3">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories4.webp" class="card-img-top" alt="Product 3">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories5.webp" class="card-img-top" alt="Product 3">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="./images/accessories6.jpg" class="card-img-top" alt="Product 3">
-                            <div class="card-body">
-                                <span class="badge bg-danger">-50%</span>
-                                <p class="card-text mt-2">Product Description</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-
-
-
-    <footer class="w-120">
-        <div class="footer-top">
-            <div class="signup" >
-                <h2 style="display: inline;">Sign UP</h2>
-                <div class="signup-form" style="display: inline;">
-                    <input type="email" placeholder="Email address">
-                    <button>SUBSCRIBE</button>
-                </div>
-            </div>
-        </div>
-        <div class="footer-content">
-            <div class="contact-info">
-                <h3>Contact Us</h3>
-                <p>244A industrial area, New Cairo</p>
-                <p>Phone: 0221294384</p>
-                <p>Email: <a href="mailto:info@alamki.com">info@alamki.com</a></p>
-                <h6>Stay In Touch With Us</h6>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-            <div class="information">
-                <h3>Information</h3>
-                <ul>
-                    <li><a href="#">Placing Orders & Payment</a></li>
-                    <li><a href="#">Exchange Policy</a></li>
-                    <li><a href="#">Shipping Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>2024 alamki © All Rights Reserved.</p>
-          
-                <img src="./images/icons_auto_x2_9c29f9aa-424b-4bfc-9488-669d78b3dec4 (3).webp" alt="Visa" width="300px" >
-
-          
-      
-        
-</footer>    
-
-
-
-    <!-- إضافة مكتبة FontAwesome للرموز -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <!-- استدعاء مكتبة JavaScript لـ Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./scripts.js"></script>
-</body>
-</html>
